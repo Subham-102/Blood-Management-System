@@ -1,0 +1,150 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: poppins,sans-serif;
+}
+body{
+	background-color: #ddd;
+	
+}
+/* Header */
+.header{
+    width: 100%;
+    height: 80px;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 4%;
+
+}
+.header h2{
+    color: white;
+    font-weight: bold;
+}
+.header h1{
+    color: white;
+    font-weight: bold;
+}
+.header a{
+    padding: 8px 20px;
+	background: white;
+	color: crimson;
+	border: 2px solid crimson;
+	text-decoration: none;
+	border-radius: 6px; 
+	outline: none;
+    font-weight: bold;
+    transition: all ease-in 0.5s;
+}
+.header a:hover{
+    background-color: rgb(205, 0, 0);
+    color: white;
+    box-shadow: 0 0 12px rgba(0,0,0,0.5);
+}
+.content{
+    width: 100%;
+    height: 625px;
+    display: flex;
+    
+}
+.content .options{
+    width: 19%;
+    height: 650px;
+    background-color: rgba(0, 0, 0, 0.7);
+    
+
+
+}
+.content .options .opt{
+    width: 100%;
+    height: 79px;
+    display: flex;
+    align-items: center;
+    
+    border-bottom: 2px solid black;
+
+}
+.content .options .opt-last{
+    width: 100%;
+    height: 89px;
+    display: flex;
+    align-items: center;
+    
+}
+
+.content .options a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    padding-left: 20px;
+    transition: all ease-in 0.2s;
+}
+.content .options a:hover{
+    
+    color: blue;
+}
+
+.content .main-container{
+	width: 81%;
+	padding: 20px 8%;
+}
+.main-container .donor-heading{
+	text-align:center;
+}
+.content .main-container .container2{
+	width: 100%;
+	height:100%;
+	background: white;
+	padding: 10px;
+	border-radius: 5px;
+	
+}
+.container2 .input-field{
+	width: 100%;
+	
+}
+.container2 .input-field label{
+	font-weight: bold;
+	font-size: 14px;
+	
+}
+.container2 .input-field input{
+	width: 100%;
+	margin-top: 8px;
+	padding: 10px;
+	font-size: 18px;
+	border: 2px solid #F08080;
+	border-radius: 5px;
+	outline: none;
+}
+.container2 table{
+	margin-top: 20px;
+	width: 100%;
+	border-collapse: collapse;
+	
+}
+.container2 table thead{
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+.container2 table thead th{
+	background: #F08080;
+	color: white;
+	height: 50px;
+	border-left: 2px solid white;
+}
+.container2 table td{
+	padding: 7px;
+	text-align: center;
+	font-size: 15px;
+}
+.container2 table tbody tr{
+	border-bottom: 2px solid #F08080;
+}
+
+
