@@ -1,4 +1,4 @@
-# Blood Bank Management System
+# Blood Bank and Donor Management System
 
 ## Overview
 
